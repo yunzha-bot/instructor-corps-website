@@ -1,0 +1,147 @@
+{
+  "text": "RHINE LAB\nSYNTHESIZE INFORMATION\n\nA\nN\nA\nL\nY\nS\nI\nS\nOS\n\n⌕\nARCHIVE INDEX\n/\n＋ SAVED\n00\n◷\n设置\nCONFIDENTIALITY:\nGENERAL BUSINESS USE\nINTERNAL DATABASE ／ \n机构档案\n机\n构\n档\n案\nFILE NUMBER:\nX-001\n↗\n莱茵生命\n莱\n茵\n生\n命\nREFERENCE AREA\nR\nE\nF\nE\nR\nE\nN\nC\nE\n \nA\nR\nE\nA\nACCESS FILE\n→\nARCHIVE / SELECT\n01\n/\n08\n↑\n↓\n←\nCOLUMN 03 / 05\n机构档案\n机\n构\n档\n案\n→\n← → 切换列 ／ ↑ ↓ 前后档案 ／ ENTER 读取\nPOWERED BY\nRHINE LAB\nSESSION AUTHORIZED\nJOYCE MOORE\n／\n12\n1\n2\n:\n53\n5\n3\n:\n03\n0\n3\nREINITIALIZE ↗",
+  "stats": {
+    "decryption": {
+      "time": -1,
+      "intervals": [],
+      "markers": 0,
+      "point": 0,
+      "label": 0,
+      "labelValue": 0,
+      "clarity": 0,
+      "phase": "waiting",
+      "modelClarity": 0
+    },
+    "topLeft": [
+      416,
+      265
+    ],
+    "topRight": [
+      800,
+      73
+    ],
+    "labelTopLeft": [
+      499,
+      306
+    ],
+    "labelBottomLeft": [
+      499,
+      370
+    ],
+    "modelPosition": [
+      0,
+      -1.9677,
+      -2.983
+    ],
+    "cameraPosition": [
+      -114.4623,
+      45.5173,
+      68.6123
+    ],
+    "fieldOfView": 3.004829649946587,
+    "loaded": true,
+    "drawCalls": 98,
+    "renderedFrames": 98,
+    "reusedFrames": 0,
+    "superPerformance": false,
+    "presentation": 1,
+    "triangles": 4605987,
+    "archiveCount": 251,
+    "archiveCandidates": 458,
+    "archiveCulled": 207,
+    "archiveCapacity": 576,
+    "archiveCoverage": "standard",
+    "returningFiles": 0,
+    "selectionPhase": "settled",
+    "pendingPulse": null,
+    "pulses": [],
+    "referenceTime": 35.36,
+    "selectedSlot": 76,
+    "selectedLane": 2,
+    "selectedCell": {
+      "lane": 2,
+      "row": 12
+    },
+    "hoverCell": null,
+    "hoverLifts": {},
+    "dragTrack": null,
+    "archiveMomentum": null,
+    "holdingArchive": false,
+    "dragProjection": {
+      "lane": {
+        "x": -331.1613260995619,
+        "y": 171.91642359014395
+      },
+      "row": {
+        "x": -63.373809376152444,
+        "y": -12.315475488485953
+      }
+    },
+    "dragMapping": null,
+    "coordinateOrigin": {
+      "lane": 0,
+      "row": 0
+    },
+    "poolBounds": {
+      "minLane": -4,
+      "maxLane": 9,
+      "minRow": -26,
+      "maxRow": 53
+    },
+    "laneFocus": 2,
+    "columnCamera": 0,
+    "rotation": 0,
+    "clearance": -3.3069198785396403,
+    "canInspect": false,
+    "returnPhase": "lowering",
+    "extraction": 0.388,
+    "appearance": 1,
+    "cameraDetail": 0,
+    "idleGain": 0.6362178210711612,
+    "flatten": 0,
+    "spectrumActivity": 0,
+    "selectedIndexDim": 0,
+    "returningIndexDims": [],
+    "cameraDistance": 139.89612983969624,
+    "cameraNear": 5,
+    "cameraFar": 300,
+    "fogNear": 144.89612983969624,
+    "fogFar": 164.89612983969624,
+    "returningAppearance": [],
+    "rail": 0,
+    "threeState": "on",
+    "fps": 5,
+    "mode": "archive",
+    "ready": true,
+    "startup": "started",
+    "motion": {
+      "reduced": false,
+      "preset": "full"
+    },
+    "bootTime": null,
+    "selected": "X-001",
+    "saved": [],
+    "audio": {
+      "state": "locked",
+      "scene": "archive",
+      "tracks": 0,
+      "voices": 0,
+      "loaded": false,
+      "playedKeys": 0,
+      "error": "",
+      "preferences": {
+        "sound": true,
+        "music": true,
+        "soundVolume": 0.55,
+        "musicVolume": 0.5
+      }
+    },
+    "wallpaper": null
+  },
+  "layout": {
+    "width": 1920,
+    "height": 1080,
+    "transform": "matrix(0.833333, 0, 0, 0.833333, -960, -540)"
+  },
+  "errors": []
+}

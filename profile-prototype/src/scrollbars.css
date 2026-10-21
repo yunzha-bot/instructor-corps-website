@@ -1,0 +1,63 @@
+/* Single global owner for scrollbar styling. Override layout-specific native
+   thin/color rules, which otherwise suppress WebKit thumb and button styling. */
+html:root,
+html:root * {
+  scrollbar-width: thin !important;
+  scrollbar-color: #999999 transparent !important;
+}
+
+/* Chromium/WebKit: use native pseudo elements to remove the arrow buttons. */
+@supports selector(::-webkit-scrollbar) {
+  html:root,
+  html:root * {
+    scrollbar-width: auto !important;
+    scrollbar-color: auto !important;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    margin-block: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #999999;
+    border-radius: 8px;
+    min-height: 36px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #777777;
+  }
+
+  ::-webkit-scrollbar-thumb:active {
+    background: #555555;
+  }
+
+  ::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
+
+@media (forced-colors: active) {
+  html:root,
+  html:root * {
+    scrollbar-width: auto !important;
+    scrollbar-color: auto !important;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: ButtonText;
+  }
+}

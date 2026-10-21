@@ -1,0 +1,15 @@
+{
+  "profileSave": true,
+  "uniqueFields": [
+    "训练目标",
+    "计划日期",
+    "执行安排"
+  ],
+  "draftAcrossTabsAndBoards": true,
+  "recordIsolation": true,
+  "documentCreateEdit": true,
+  "persistedAfterReload": true,
+  "selectKeyboardSafe": true,
+  "mobileOverflow": false,
+  "errors": []
+}

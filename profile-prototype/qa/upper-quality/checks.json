@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "name": "medium",
+      "wheelRow": 20,
+      "rotation": 0.34057325934977567,
+      "modelClarity": 1,
+      "metrics": {
+        "ratio": 0.6666666666666667,
+        "width": 1280,
+        "height": 720,
+        "limited": false,
+        "antialias": "off",
+        "samples": 4,
+        "supersampling": 1,
+        "pixelBudget": 1440000,
+        "transmission": 0.5,
+        "anisotropy": 4,
+        "superPerformance": false,
+        "aoSamples": 0,
+        "aoWidth": 640,
+        "aoHeight": 360,
+        "shadows": 0,
+        "depthOfField": 0
+      }
+    },
+    {
+      "name": "high",
+      "wheelRow": 28,
+      "rotation": 0.34831504207877384,
+      "modelClarity": 1,
+      "metrics": {
+        "ratio": 0.8333333333333335,
+        "width": 1600,
+        "height": 900,
+        "limited": false,
+        "antialias": "off",
+        "samples": 4,
+        "supersampling": 1,
+        "pixelBudget": 2073600,
+        "transmission": 0.5,
+        "anisotropy": 8,
+        "superPerformance": false,
+        "aoSamples": 16,
+        "aoWidth": 800,
+        "aoHeight": 450,
+        "shadows": 1024,
+        "depthOfField": 0
+      }
+    },
+    {
+      "name": "ultra",
+      "wheelRow": 36,
+      "rotation": 0.41857978062490936,
+      "modelClarity": 1,
+      "metrics": {
+        "ratio": 1.25,
+        "width": 2400,
+        "height": 1350,
+        "limited": false,
+        "antialias": "off",
+        "samples": 4,
+        "supersampling": 1.5,
+        "pixelBudget": 3686400,
+        "transmission": 0.75,
+        "anisotropy": 8,
+        "superPerformance": false,
+        "aoSamples": 16,
+        "aoWidth": 1200,
+        "aoHeight": 675,
+        "shadows": 2048,
+        "depthOfField": 50
+      }
+    }
+  ],
+  "errors": []
+}

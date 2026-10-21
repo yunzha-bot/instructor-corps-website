@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "frames": [
+    {
+      "name": "point",
+      "face": 1,
+      "opacity": 1,
+      "width": 0.06,
+      "height": 0.045,
+      "mass": 1,
+      "clip": "none"
+    },
+    {
+      "name": "line",
+      "face": 1,
+      "opacity": 1,
+      "width": 0.06,
+      "height": 1,
+      "mass": 1,
+      "clip": "none"
+    },
+    {
+      "name": "thickening",
+      "face": 1,
+      "opacity": 1,
+      "width": 0.875201,
+      "height": 1,
+      "mass": 0.411229,
+      "clip": "none"
+    },
+    {
+      "name": "complete",
+      "face": 1,
+      "opacity": 1,
+      "width": 1,
+      "height": 1,
+      "mass": 0,
+      "clip": "none"
+    }
+  ],
+  "oldMarks": 0,
+  "boot": "",
+  "reduced": "none",
+  "errors": []
+}

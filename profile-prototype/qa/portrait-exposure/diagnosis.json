@@ -1,0 +1,38 @@
+[
+  {
+    "tier": "performance",
+    "variant": "lit",
+    "mae": 17.816666666666666,
+    "brightnessBias": 3.505128205128205
+  },
+  {
+    "tier": "performance",
+    "variant": "unlit-tonemapped",
+    "mae": 17.171153846153846,
+    "brightnessBias": -3.5596153846153844
+  },
+  {
+    "tier": "performance",
+    "variant": "unlit-original",
+    "mae": 6.807051282051282,
+    "brightnessBias": 0.44551282051282054
+  },
+  {
+    "tier": "high",
+    "variant": "lit",
+    "mae": 16.951923076923077,
+    "brightnessBias": 2.9634615384615386
+  },
+  {
+    "tier": "high",
+    "variant": "unlit-tonemapped",
+    "mae": 16.130128205128205,
+    "brightnessBias": -4.287820512820513
+  },
+  {
+    "tier": "high",
+    "variant": "unlit-original",
+    "mae": 16.130128205128205,
+    "brightnessBias": -4.287820512820513
+  }
+]

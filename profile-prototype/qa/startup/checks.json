@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "route": "/",
+      "readyAt": 6154,
+      "latePrograms": 0,
+      "slowFrames": 0,
+      "maxFrame": 27.800000000000182,
+      "p95Frame": 7,
+      "interactionPrograms": 0,
+      "errors": []
+    },
+    {
+      "route": "/?scene=archive",
+      "readyAt": 1092.7000000011176,
+      "latePrograms": 0,
+      "slowFrames": 0,
+      "maxFrame": 7.100000000000364,
+      "p95Frame": 7,
+      "interactionPrograms": 0,
+      "staticFramesIdentical": true,
+      "stableSamplingSettingPersists": true,
+      "errors": []
+    },
+    {
+      "route": "/?scene=detail",
+      "readyAt": 1137,
+      "latePrograms": 0,
+      "slowFrames": 0,
+      "maxFrame": 14,
+      "p95Frame": 7,
+      "errors": []
+    }
+  ]
+}

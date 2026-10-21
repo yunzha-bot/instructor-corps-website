@@ -1,0 +1,12 @@
+{
+  "multipleUpload": true,
+  "order": true,
+  "independent": true,
+  "reload": true,
+  "preview": true,
+  "escapeKeepsDetail": true,
+  "deleteConfirmation": true,
+  "invalidFile": true,
+  "memberFormsPreserved": true,
+  "errors": []
+}

@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "desktop: no horizontal overflow",
+    "AI archive image loaded and extraction completes",
+    "laptop: no horizontal overflow",
+    "tablet: no horizontal overflow",
+    "mobile: no horizontal overflow",
+    "edit, save and refresh preserve browser-only fictional profile",
+    "tabs support click and arrow-key navigation",
+    "skip during return cancels replay without restarting it",
+    "reduced-motion control keeps content available and disables replay",
+    "image viewer opens and Escape closes the modal",
+    "demo reset restores the initial identity",
+    "system reduced-motion preference prevents all entry animation",
+    "missing image presents an explicit error state"
+  ],
+  "errors": [],
+  "passed": true
+}

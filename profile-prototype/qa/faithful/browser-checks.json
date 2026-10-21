@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "checks": [
+    "wheel down continuously travels one row and selects next file",
+    "reverse wheel returns to previous file",
+    "small trackpad deltas accumulate into continuous travel",
+    "detail reading does not switch files on wheel",
+    "tabs retain keyboard navigation",
+    "profile editing persists fictional data across reload",
+    "bookmark updates local collection",
+    "export downloads project demo data",
+    "full model viewer supports explode, assemble, frosted glass and reset",
+    "search filters project archive content",
+    "reduced-motion setting applies",
+    "tablet: source-responsive archive and detail, no horizontal overflow",
+    "mobile: source-responsive archive and detail, no horizontal overflow",
+    "wide: source-responsive archive and detail, no horizontal overflow"
+  ],
+  "wheelSamples": [
+    {
+      "rail": -0.036,
+      "selected": "X-001",
+      "wheelTrack": {
+        "value": 12.058679834957259,
+        "target": 13,
+        "velocity": 3.692099996605886
+      },
+      "returningFiles": 0
+    },
+    {
+      "rail": -0.615,
+      "selected": "X-002",
+      "wheelTrack": {
+        "value": 12.992460890601688,
+        "target": 13,
+        "velocity": 0.07108814554873628
+      },
+      "returningFiles": 1
+    },
+    {
+      "rail": -0.62,
+      "selected": "X-002",
+      "wheelTrack": null,
+      "returningFiles": 1
+    },
+    {
+      "rail": -0.62,
+      "selected": "X-002",
+      "wheelTrack": null,
+      "returningFiles": 1
+    },
+    {
+      "rail": -0.62,
+      "selected": "X-002",
+      "wheelTrack": null,
+      "returningFiles": 0
+    },
+    {
+      "rail": -0.62,
+      "selected": "X-002",
+      "wheelTrack": null,
+      "returningFiles": 0
+    }
+  ],
+  "errors": []
+}

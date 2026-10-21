@@ -1,0 +1,237 @@
+/* Shared detail typography and editing surfaces; reference-mode artwork is untouched. */
+.editable-dossier {
+  --detail-px: calc(1px / var(--stage-scale, 1));
+  --detail-label-size: calc(13 * var(--detail-px));
+  --detail-meta-size: calc(12 * var(--detail-px));
+  --detail-ink: #30332f;
+  --detail-muted: #666861;
+  --detail-rule: rgba(48, 51, 47, .15);
+  --detail-placeholder: #74766f;
+  --detail-focus-line: #666b61;
+  color: var(--detail-ink);
+  padding-right: calc(14 * var(--detail-px));
+  padding-bottom: calc(12 * var(--detail-px));
+  box-sizing: border-box;
+  scrollbar-gutter: stable;
+}
+[data-dark-surface="true"] .editable-dossier {
+  --detail-ink: var(--theme-ink);
+  --detail-muted: var(--theme-muted);
+  --detail-rule: rgba(var(--theme-line-rgb), .55);
+  --detail-placeholder: var(--theme-muted);
+  --detail-focus-line: var(--theme-muted);
+}
+.editable-dossier .detail-kicker {
+  gap: calc(16 * var(--detail-px));
+  font-size: calc(12 * var(--detail-px));
+  line-height: 1.6;
+  letter-spacing: .06em;
+  color: var(--detail-muted);
+}
+.editable-dossier .detail-context { display: flex; align-items: center; gap: calc(12 * var(--detail-px)); }
+.editable-dossier .detail-kicker .detail-reference {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: calc(11 * var(--detail-px));
+  letter-spacing: .04em;
+  color: var(--detail-muted);
+}
+.editable-dossier .detail-kicker .detail-access { font-size: calc(11 * var(--detail-px)); color: var(--detail-muted); letter-spacing: .04em; }
+#stage .editable-dossier h2 {
+  font-size: calc(34 * var(--detail-px));
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: .015em;
+  margin: calc(16 * var(--detail-px)) 0 calc(26 * var(--detail-px));
+}
+.editable-dossier .detail-rule { display: none; }
+#stage .editable-dossier .detail-tabs { gap: calc(26 * var(--detail-px)); border-bottom: 1px solid var(--detail-rule); }
+#stage .editable-dossier .detail-tabs button {
+  min-height: calc(44 * var(--detail-px));
+  padding: 0 0 calc(12 * var(--detail-px));
+  font-size: calc(10 * var(--detail-px));
+  color: var(--detail-muted);
+  transition: color 180ms ease;
+  white-space: nowrap;
+}
+#stage .editable-dossier .detail-tabs button span { margin-left: calc(7 * var(--detail-px)); font-size: calc(13 * var(--detail-px)); font-weight: 400; letter-spacing: .025em; }
+#stage .editable-dossier .detail-tabs button:is(.active, :hover) { color: var(--detail-ink); }
+.editable-dossier .tab-indicator { height: calc(1.5 * var(--detail-px)); background: #51544e; }
+#stage .editable-dossier .tab-panel { height: auto; overflow: visible; padding-top: calc(26 * var(--detail-px)); }
+.inline-record-form { margin: 0; }
+.inline-record-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: calc(24 * var(--detail-px)) calc(24 * var(--detail-px)); }
+.inline-record-wide { grid-column: 1 / -1; }
+.editable-dossier .record-field, .editable-dossier .dossier-document-inline > label {
+  display: grid;
+  align-content: start;
+  gap: calc(9 * var(--detail-px));
+  min-width: 0;
+  color: var(--detail-muted);
+  font-size: calc(12 * var(--detail-px));
+  line-height: 1.6;
+  letter-spacing: .03em;
+}
+.record-field > span:first-child { padding-inline: calc(11 * var(--detail-px)); transition: color 180ms ease; }
+.record-field:focus-within > span:first-child { color: var(--detail-ink); }
+.editable-dossier :is(.inline-record-form, .dossier-document-inline) :is(input:not([type=hidden]), textarea, select) {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: calc(46 * var(--detail-px));
+  margin: 0;
+  padding: calc(10 * var(--detail-px)) calc(11 * var(--detail-px));
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: var(--detail-ink);
+  font-family: inherit;
+  font-size: calc(16 * var(--detail-px));
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: .01em;
+  transition: color 180ms ease;
+}
+.editable-dossier :is(.inline-record-form, .dossier-document-inline) textarea { min-height: calc(116 * var(--detail-px)); resize: vertical; background: transparent; }
+.editable-dossier :is(.inline-record-form, .dossier-document-inline) :is(input, textarea)::placeholder { color: var(--detail-placeholder); opacity: 1; font-weight: 300; }
+.editable-dossier select:has(option:checked[value=""]) { color: var(--detail-placeholder); }
+.editable-dossier :is(.inline-record-form, .dossier-document-inline) :is(input, textarea, select):is(:hover, :focus) {
+  outline: none;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.editable-dossier .editor-control { position: relative; display: block; min-width: 0; padding: 0; }
+.editable-dossier .editor-rule {
+  content: "";
+  position: absolute;
+  display: block;
+  pointer-events: none;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: calc(1 * var(--detail-px));
+  border-radius: 999px;
+  background: var(--detail-rule);
+  transform: translateX(-50%);
+  transition: background-color 180ms ease;
+}
+.editable-dossier[data-editor-reveal=waiting] .editor-rule { opacity: 0; }
+.editable-dossier[data-editor-reveal=ready] .editor-rule {
+  animation: editor-point-line 560ms cubic-bezier(.22,.68,.24,1) both;
+}
+.editable-dossier .editor-control:focus-within .editor-rule {
+  background: var(--detail-focus-line);
+}
+.editable-dossier .editor-control:hover .editor-rule { background: var(--detail-focus-line); }
+@keyframes editor-point-line {
+  0% { width: calc(3 * var(--detail-px)); height: calc(3 * var(--detail-px)); opacity: 0; }
+  18%, 30% { width: calc(3 * var(--detail-px)); height: calc(3 * var(--detail-px)); opacity: 1; }
+  100% { width: 100%; height: calc(1 * var(--detail-px)); opacity: 1; }
+}
+.editable-dossier .editor-control:has([data-typed-date]) > [data-typed-date] { padding-right: calc(48 * var(--detail-px)); }
+.editable-dossier .editor-control .native-date-picker {
+  position: absolute; width: 1px; min-height: 0; height: 1px; padding: 0;
+  right: 0; bottom: 0; opacity: 0; pointer-events: none;
+}
+.editable-dossier .date-picker-button {
+  position: absolute; right: 0; top: 0; display: grid; place-items: center;
+  width: calc(44 * var(--detail-px)); height: calc(46 * var(--detail-px));
+  padding: 0; border: 0; background: transparent; color: var(--detail-muted); cursor: pointer;
+}
+.editable-dossier .date-picker-button:hover { color: var(--detail-ink); background: transparent; }
+.editable-dossier .date-picker-button svg { width: calc(17 * var(--detail-px)); fill: none; stroke: currentColor; stroke-width: 1.5; }
+.editable-dossier .editor-control:has([aria-invalid=true]) .editor-rule { background: #8a4438; }
+.editable-dossier .inline-record-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: calc(16 * var(--detail-px));
+  margin-top: calc(24 * var(--detail-px));
+  font-size: calc(11 * var(--detail-px));
+  line-height: 1.6;
+  color: var(--detail-muted);
+}
+.inline-record-footer > div { display: flex; gap: calc(12 * var(--detail-px)); align-items: center; }
+.editable-dossier .inline-record-footer button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: calc(18 * var(--detail-px));
+  min-height: calc(44 * var(--detail-px));
+  padding: calc(10 * var(--detail-px)) calc(18 * var(--detail-px));
+  position: relative;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--detail-ink);
+  font: inherit;
+  font-size: calc(12 * var(--detail-px));
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 180ms ease;
+}
+.editable-dossier .inline-record-footer button:hover { background: transparent; color: var(--detail-ink); }
+.editable-dossier .inline-record-footer button:active { transform: translateY(0); }
+.editable-dossier .inline-record-footer button[data-dossier=remove] { background: transparent; color: var(--detail-muted); padding-inline: calc(8 * var(--detail-px)); }
+.editable-dossier [data-state=saved] > .inline-record-footer [role=status] { animation: detail-saved 240ms ease-out; }
+.editable-dossier [data-state=error] > .inline-record-footer [role=status] { color: #8a4438; }
+@keyframes detail-saved { from { opacity: .45; transform: translateY(3px); } to { opacity: 1; transform: translateY(0); } }
+#stage .editable-dossier .detail-actions {
+  justify-content: flex-start;
+  gap: calc(28 * var(--detail-px));
+  margin-top: calc(24 * var(--detail-px));
+  padding-top: calc(12 * var(--detail-px));
+  border-top: 1px solid var(--detail-rule);
+}
+#stage .editable-dossier .detail-actions :is(.solid-button, .export-button) {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: calc(12 * var(--detail-px));
+  flex: none;
+  width: auto;
+  min-height: calc(44 * var(--detail-px));
+  height: auto;
+  padding: 0;
+  background: none;
+  color: var(--detail-muted);
+  font-size: calc(12 * var(--detail-px));
+  letter-spacing: .02em;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+#stage .editable-dossier .detail-actions :is(.solid-button, .export-button):hover { color: var(--detail-ink); }
+#stage .editable-dossier .detail-actions :is(.solid-button, .export-button) span { color: inherit; font-size: calc(16 * var(--detail-px)); font-weight: 300; }
+.editable-dossier .detail-footnote:empty { display: none; }
+.editable-dossier .dossier-document-inline { display: grid; gap: calc(20 * var(--detail-px)); margin: 0; }
+.editable-dossier .dossier-document-inline > label { padding-inline: calc(11 * var(--detail-px)); }
+.editable-dossier .dossier-document-inline > label > .editor-control { width: calc(100% + 22 * var(--detail-px)); margin-left: calc(-11 * var(--detail-px)); }
+.editable-dossier .dossier-document-inline .inline-record-footer { margin-top: calc(4 * var(--detail-px)); }
+.editable-dossier .inline-document { border-bottom: 1px solid var(--detail-rule); margin-bottom: calc(24 * var(--detail-px)); }
+.editable-dossier .inline-document summary { padding-block: calc(12 * var(--detail-px)); font-size: calc(16 * var(--detail-px)); line-height: 1.65; cursor: pointer; overflow-wrap: anywhere; }
+.editable-dossier .inline-document[open] { padding-bottom: calc(20 * var(--detail-px)); }
+.editable-dossier .inline-document[open] summary { margin-bottom: calc(12 * var(--detail-px)); }
+.editable-dossier :is(button, a, summary):focus-visible { outline: 1px solid var(--detail-focus-line); outline-offset: calc(4 * var(--detail-px)); }
+#stage[data-layout=portrait] .editable-dossier { border-top-color: var(--detail-rule); padding-top: 18px; }
+#stage:is([data-layout=portrait], [data-layout=compact]) .editable-dossier h2 { font-size: 28px; margin-block: 14px 22px; }
+#stage:is([data-layout=portrait], [data-layout=compact]) .editable-dossier .detail-tabs { gap: 20px; }
+#stage[data-layout=portrait] .inline-record-grid { gap: 20px 16px; }
+@media (prefers-reduced-motion: reduce) {
+  .editable-dossier *, .editable-dossier *::before, .editable-dossier *::after { animation: none !important; transition: none !important; }
+}
+.reduce-surfaces .editable-dossier *, .reduce-motion .editable-dossier *,
+.reduce-surfaces .editable-dossier *::after, .reduce-motion .editable-dossier *::after { animation: none !important; transition: none !important; }
+
+/* Keep the fixed signature clear of longer editable documents. */
+#stage[data-mode=detail]:has(.editable-dossier) > .powered { visibility: hidden; }
+/* Focus may scroll the document panel, never the transformed scene itself. */
+#stage[data-mode=detail]:has(.editable-dossier) { overflow: clip; }
+
+.editable-dossier .member-section { margin-top: calc(24 * var(--detail-px)); border-top: 1px solid var(--detail-rule); }
+.editable-dossier .member-section > summary { cursor: pointer; padding-block: calc(14 * var(--detail-px)); font-size: calc(14 * var(--detail-px)); color: var(--detail-ink); }
+.editable-dossier .member-section[open] > summary { margin-bottom: calc(12 * var(--detail-px)); }
+.editable-dossier .member-profile { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: calc(24 * var(--detail-px)); margin: 0; }
+.editable-dossier .member-profile > div:first-child { grid-column: 1/-1; }
+.editable-dossier .member-profile dt { font-size: calc(12 * var(--detail-px)); line-height: 1.6; color: var(--detail-muted); }
+.editable-dossier .member-profile dd { margin: calc(10 * var(--detail-px)) 0 0; font-size: calc(16 * var(--detail-px)); line-height: 1.65; overflow-wrap: anywhere; }
+.editable-dossier :is(.member-bio,.member-readonly-note) { font-size: calc(14 * var(--detail-px)); line-height: 1.8; margin-top: calc(24 * var(--detail-px)); color: var(--detail-muted); }

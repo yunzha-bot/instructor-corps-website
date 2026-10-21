@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": [
+    "real wheel frames include fractional rail travel",
+    "new entry loads",
+    "final text masks fully removed",
+    "four viewports captured",
+    "mobile bottom actions reachable",
+    "mobile profile editor reachable"
+  ]
+}

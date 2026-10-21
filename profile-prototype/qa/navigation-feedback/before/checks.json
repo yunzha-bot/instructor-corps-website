@@ -1,0 +1,15 @@
+{
+  "hover": {
+    "background": "rgb(228, 213, 193)",
+    "color": "rgb(8, 10, 8)"
+  },
+  "mouse": {
+    "outline": "none",
+    "color": "rgb(8, 10, 8)",
+    "focused": true
+  },
+  "keyboard": {
+    "outline": "solid",
+    "color": "rgb(166, 125, 72)"
+  }
+}

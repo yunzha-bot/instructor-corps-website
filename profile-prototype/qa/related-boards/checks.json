@@ -1,0 +1,31 @@
+{
+  "overview": "基本资料\n演示基本资料正文，逐项记录个人成长。\n编辑此项内容",
+  "notes": "个人记录\n演示个人记录正文：本周的训练反思。\n编辑此项内容",
+  "child": {
+    "selected": "X-1001",
+    "title": "演示独立档案\n相关文档",
+    "body": "文档正文\n这是独立相关文档的正文。\n编辑此项内容\n\n← 返回来源档案 X-001"
+  },
+  "back": {
+    "selected": "X-001",
+    "mode": "archive"
+  },
+  "counts": [
+    {
+      "index": "06",
+      "total": "08",
+      "ticks": 8
+    },
+    {
+      "index": "08",
+      "total": "08",
+      "ticks": 8
+    },
+    {
+      "index": "01",
+      "total": "08",
+      "ticks": 8
+    }
+  ],
+  "errors": []
+}

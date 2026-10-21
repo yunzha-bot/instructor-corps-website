@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "frames": [
+    {
+      "name": "points",
+      "face": 0,
+      "nodes": 0.814851,
+      "outline": "1px",
+      "clip": "inset(50% 0px)"
+    },
+    {
+      "name": "lines",
+      "face": 0,
+      "nodes": 1,
+      "outline": "0.182032px",
+      "clip": "inset(50% 0px)"
+    },
+    {
+      "name": "surface",
+      "face": 0.885229,
+      "nodes": 0.104647,
+      "outline": "0px",
+      "clip": "inset(5.73853% 0px)"
+    },
+    {
+      "name": "complete",
+      "face": 1,
+      "nodes": 0,
+      "outline": "0px",
+      "clip": "inset(0% 0px)"
+    }
+  ],
+  "oldMarks": 0,
+  "boot": "",
+  "reduced": "none",
+  "errors": []
+}

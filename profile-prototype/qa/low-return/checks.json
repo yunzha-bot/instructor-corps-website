@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "result": {
+    "shadows": false,
+    "returning": 1,
+    "fullCopiesVisible": 0,
+    "oldCellInBatch": true
+  },
+  "continuous": {
+    "fullSelectedFrames": 0,
+    "missingSelectedFrames": 0,
+    "activePulses": 0
+  },
+  "phases": {
+    "matrixError": 3.5972102629955316e-7,
+    "highRestoresCopy": true,
+    "lowHidesCopyAgain": true,
+    "returnsComplete": true,
+    "detailModelVisible": true
+  }
+}

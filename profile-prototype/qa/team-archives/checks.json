@@ -1,0 +1,102 @@
+{
+  "data": {
+    "categories": [
+      "全部档案",
+      "队伍档案",
+      "训练记录",
+      "荣誉里程",
+      "青春记忆"
+    ],
+    "ids": [
+      "X-001",
+      "T-002",
+      "T-003",
+      "T-004",
+      "T-005",
+      "T-006",
+      "T-007",
+      "T-008",
+      "X-009",
+      "X-010",
+      "X-011",
+      "X-012",
+      "X-013",
+      "X-014",
+      "X-015",
+      "X-016",
+      "X-025",
+      "X-026",
+      "X-027",
+      "X-028",
+      "X-029",
+      "X-030",
+      "X-031",
+      "X-032",
+      "X-033",
+      "X-034",
+      "X-035",
+      "X-036",
+      "X-037",
+      "X-038",
+      "X-039",
+      "X-040"
+    ],
+    "members": [
+      {
+        "id": "X-001",
+        "owner": "demo-self",
+        "title": "我的演示档案"
+      },
+      {
+        "id": "T-002",
+        "owner": "demo-member-2",
+        "title": "演示队员 02"
+      },
+      {
+        "id": "T-003",
+        "owner": "demo-member-3",
+        "title": "演示队员 03"
+      },
+      {
+        "id": "T-004",
+        "owner": "demo-member-4",
+        "title": "演示队员 04"
+      },
+      {
+        "id": "T-005",
+        "owner": "demo-member-5",
+        "title": "演示队员 05"
+      },
+      {
+        "id": "T-006",
+        "owner": "demo-member-6",
+        "title": "演示队员 06"
+      },
+      {
+        "id": "T-007",
+        "owner": "demo-member-7",
+        "title": "演示队员 07"
+      },
+      {
+        "id": "T-008",
+        "owner": "demo-member-8",
+        "title": "演示队员 08"
+      }
+    ],
+    "count": 32
+  },
+  "selfFirst": true,
+  "ownEdit": true,
+  "legacyContentRetained": true,
+  "teammatesReadonly": true,
+  "noPrivateContentLeak": true,
+  "forgedWritesBlocked": true,
+  "rosterDeletionBlocked": true,
+  "liveCreate": true,
+  "liveDeleteUndo": true,
+  "peerSort": true,
+  "motionPreserved": true,
+  "reload": true,
+  "mobile": true,
+  "errors": []
+}

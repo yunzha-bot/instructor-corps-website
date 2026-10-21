@@ -1,0 +1,25 @@
+{
+  "center": {
+    "x": 540,
+    "y": 207,
+    "width": 360,
+    "height": 486
+  },
+  "mobile": {
+    "x": 66.296875,
+    "y": 248.265625,
+    "width": 257.390625,
+    "height": 347.46875
+  },
+  "pixel": [
+    229,
+    0,
+    0,
+    255
+  ],
+  "fileChooser": true,
+  "upload": true,
+  "reload": true,
+  "peerReadonly": true,
+  "errors": []
+}

@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "label": "低",
+      "metrics": {
+        "ratio": 0.5,
+        "width": 960,
+        "height": 540,
+        "limited": false,
+        "antialias": "off",
+        "samples": 0,
+        "supersampling": 1,
+        "pixelBudget": 921600,
+        "transmission": 0.25,
+        "anisotropy": 2,
+        "superPerformance": true,
+        "aoSamples": 0,
+        "aoWidth": 480,
+        "aoHeight": 270,
+        "shadows": 0,
+        "depthOfField": 0
+      },
+      "timing": {
+        "frames": 217,
+        "meanFrame": 6.928110599078339
+      }
+    },
+    {
+      "label": "中",
+      "metrics": {
+        "ratio": 0.6666666666666667,
+        "width": 1280,
+        "height": 720,
+        "limited": false,
+        "antialias": "off",
+        "samples": 4,
+        "supersampling": 1,
+        "pixelBudget": 1440000,
+        "transmission": 0.5,
+        "anisotropy": 4,
+        "superPerformance": false,
+        "aoSamples": 0,
+        "aoWidth": 640,
+        "aoHeight": 360,
+        "shadows": 0,
+        "depthOfField": 0
+      },
+      "timing": {
+        "frames": 217,
+        "meanFrame": 6.934562211985
+      }
+    },
+    {
+      "label": "高",
+      "metrics": {
+        "ratio": 0.8333333333333335,
+        "width": 1600,
+        "height": 900,
+        "limited": false,
+        "antialias": "off",
+        "samples": 4,
+        "supersampling": 1,
+        "pixelBudget": 2073600,
+        "transmission": 0.5,
+        "anisotropy": 8,
+        "superPerformance": false,
+        "aoSamples": 16,
+        "aoWidth": 800,
+        "aoHeight": 450,
+        "shadows": 1024,
+        "depthOfField": 0
+      },
+      "timing": {
+        "frames": 217,
+        "meanFrame": 6.930875576040303
+      }
+    },
+    {
+      "label": "极高",
+      "metrics": {
+        "ratio": 1.25,
+        "width": 2400,
+        "height": 1350,
+        "limited": false,
+        "antialias": "off",
+        "samples": 4,
+        "supersampling": 1.5,
+        "pixelBudget": 3686400,
+        "transmission": 0.75,
+        "anisotropy": 8,
+        "superPerformance": false,
+        "aoSamples": 16,
+        "aoWidth": 1200,
+        "aoHeight": 675,
+        "shadows": 2048,
+        "depthOfField": 50
+      },
+      "timing": {
+        "frames": 162,
+        "meanFrame": 9.289506172846409
+      }
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "heavy preferences migrate to low",
+    "four real GPU budgets",
+    "no reallocation while dragging",
+    "buttons and keyboard work",
+    "reload persistence",
+    "mobile settings"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "phases": [
+    {
+      "width": 2.9947509765625,
+      "host": 457.9947509765625,
+      "height": 2.99481201171875
+    },
+    {
+      "width": 339.34893798828125,
+      "host": 457.9947509765625,
+      "height": 1.51043701171875
+    },
+    {
+      "width": 457.9947509765625,
+      "host": 457.9947509765625,
+      "height": 0.989593505859375
+    }
+  ],
+  "surfaces": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "radius": "0px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "radius": "0px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "radius": "0px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "radius": "0px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "radius": "0px"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "radius": "0px"
+    }
+  ],
+  "beforeValidationScroll": {
+    "window": 0,
+    "viewport": 0,
+    "stage": 0,
+    "layout": "desktop"
+  },
+  "afterValidationScroll": {
+    "window": 0,
+    "viewport": 0,
+    "stage": 0,
+    "layout": "desktop"
+  },
+  "afterCalendarScroll": {
+    "window": 0,
+    "viewport": 0,
+    "stage": 0,
+    "layout": "desktop"
+  },
+  "afterDocumentsScroll": {
+    "window": 0,
+    "viewport": 0,
+    "stage": 0,
+    "layout": "desktop"
+  },
+  "typedFormats": [
+    "2026/10/20",
+    "20240229",
+    "2026年1月2日"
+  ],
+  "invalidDatesBlocked": true,
+  "emptyDate": true,
+  "nativeCalendar": true,
+  "persistedAfterReload": true,
+  "trainingDates": true,
+  "documents": true,
+  "mobile": true,
+  "mobileScroll": {
+    "window": 0,
+    "viewport": 0,
+    "stage": 0,
+    "layout": "portrait"
+  },
+  "errors": []
+}

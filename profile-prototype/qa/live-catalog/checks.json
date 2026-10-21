@@ -1,0 +1,9 @@
+{
+  "liveWithoutNavigationOrRendererRecreation": true,
+  "dragCrossCategoryAndPreciseMobileMove": true,
+  "savedDataAndDraftIdentity": true,
+  "failedWriteKeepsOrder": true,
+  "liveEmptyDeleteRestoreCreate": true,
+  "initialEmptyCreatesWithoutReload": true,
+  "errors": []
+}

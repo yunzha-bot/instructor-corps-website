@@ -1,0 +1,17 @@
+{
+  "modal": {
+    "toolsVisibility": "hidden",
+    "textareaCount": 0,
+    "columns": "406px 406px"
+  },
+  "displayed": "所属分队\n演示第一分队\n所属届别\n演示届别\n加入时间\n2026-10-01\n队内身份\n演示队员",
+  "persisted": {
+    "nickname": "演示昵称修改",
+    "team": "演示第一分队",
+    "cohort": "演示届别",
+    "joined": "2026-10-01",
+    "role": "演示队员"
+  },
+  "mobileOverflow": false,
+  "errors": []
+}

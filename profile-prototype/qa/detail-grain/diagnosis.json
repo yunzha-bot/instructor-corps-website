@@ -1,0 +1,14 @@
+[
+  {
+    "variant": "legacy-mask",
+    "meanChange": 0.0776887059910589,
+    "spikes": 67,
+    "count": 17885
+  },
+  {
+    "variant": "production",
+    "meanChange": 0.06608717758168198,
+    "spikes": 18,
+    "count": 17885
+  }
+]

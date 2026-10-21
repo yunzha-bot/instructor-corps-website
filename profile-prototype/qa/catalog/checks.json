@@ -1,0 +1,9 @@
+{
+  "drafts": true,
+  "createDeleteUndoPersistenceOrder": true,
+  "mobile": true,
+  "storageFailure": true,
+  "emptyCategoryAndAllEmptyUndo": true,
+  "referenceUntouched": true,
+  "errors": []
+}

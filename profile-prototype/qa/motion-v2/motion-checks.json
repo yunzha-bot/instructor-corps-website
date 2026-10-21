@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "samples": [
+    {
+      "time": 0,
+      "mode": "opening",
+      "lift": 0.3999999999999999,
+      "detail": 0,
+      "rotation": 0,
+      "clarity": 0,
+      "scan": "waiting",
+      "camera": [
+        -114.55646472942414,
+        45.53454162400193,
+        68.65792937557164
+      ],
+      "model": [
+        0,
+        -1.9962858175002829,
+        -2.17
+      ],
+      "lines": 0,
+      "drawCalls": 17,
+      "reduced": false,
+      "category": 0,
+      "loaded": true
+    },
+    {
+      "time": 0.6,
+      "mode": "opening",
+      "lift": 3.0162549724820087,
+      "detail": 0.47792744597087006,
+      "rotation": 0,
+      "clarity": 0,
+      "scan": "waiting",
+      "camera": [
+        -89.20327979157956,
+        39.86678800460977,
+        75.71233539079026
+      ],
+      "model": [
+        0,
+        0.6199691549817259,
+        -2.17
+      ],
+      "lines": 0,
+      "drawCalls": 13,
+      "reduced": false,
+      "category": 0,
+      "loaded": true
+    },
+    {
+      "time": 1.4,
+      "mode": "opening",
+      "lift": 3.9818865013419122,
+      "detail": 0.945688649674609,
+      "rotation": 0,
+      "clarity": 0,
+      "scan": "joining",
+      "camera": [
+        -26.77485289884208,
+        23.459010638218217,
+        70.10345166646361
+      ],
+      "model": [
+        0,
+        1.5856006838416294,
+        -2.17
+      ],
+      "lines": 2,
+      "drawCalls": 23,
+      "reduced": false,
+      "category": 0,
+      "loaded": true
+    },
+    {
+      "time": 3,
+      "mode": "opening",
+      "lift": 4.049837954405715,
+      "detail": 0.9993844670277744,
+      "rotation": 0,
+      "clarity": 0,
+      "scan": "connected",
+      "camera": [
+        -18.39582190343219,
+        20.838237734473147,
+        65.37145973949838
+      ],
+      "model": [
+        0,
+        1.6535521369054318,
+        -2.17
+      ],
+      "lines": 1,
+      "drawCalls": 22,
+      "reduced": false,
+      "category": 0,
+      "loaded": true
+    },
+    {
+      "time": 5,
+      "mode": "reading",
+      "lift": 4.0499999391120385,
+      "detail": 0.9999976701081563,
+      "rotation": 0,
+      "clarity": 1,
+      "scan": "clear",
+      "camera": [
+        -18.30673284168328,
+        20.807086172667233,
+        65.3015658004206
+      ],
+      "model": [
+        0,
+        1.6537141216117557,
+        -2.17
+      ],
+      "lines": 0,
+      "drawCalls": 17,
+      "reduced": false,
+      "category": 0,
+      "loaded": true
+    },
+    {
+      "time": 6.5,
+      "mode": "reading",
+      "lift": 4.049999999856174,
+      "detail": 0.9999999650619279,
+      "rotation": 0,
+      "clarity": 1,
+      "scan": "clear",
+      "camera": [
+        -18.30640106576274,
+        20.806967676581653,
+        65.30130180766936
+      ],
+      "model": [
+        0,
+        1.6537141823558916,
+        -2.17
+      ],
+      "lines": 0,
+      "drawCalls": 17,
+      "reduced": false,
+      "category": 0,
+      "loaded": true
+    }
+  ],
+  "errors": []
+}

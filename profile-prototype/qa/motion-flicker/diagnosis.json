@@ -1,0 +1,17 @@
+[
+  {
+    "variant": "legacy-no-aa",
+    "largeChanges": 193,
+    "meanVariation": 0.2107302689594356
+  },
+  {
+    "variant": "native-aa",
+    "largeChanges": 82,
+    "meanVariation": 0.21231701940035275
+  },
+  {
+    "variant": "stable-optional",
+    "largeChanges": 2,
+    "meanVariation": 0.20650187389770724
+  }
+]

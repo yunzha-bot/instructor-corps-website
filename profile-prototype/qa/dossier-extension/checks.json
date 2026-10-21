@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "name": "peer-redaction",
+      "blocks": 4,
+      "text": "INSTRUCTOR CORPS / DEMO\n关闭 ×\n\nPERSONAL ARCHIVE\n\n演示队员 A\n\n演示共享档案 · 仅展示本人允许公开的字段。\n\n个人简介\n演示简介：在训练中学习，在集体中成长。\n所属分队\n未公开\n所属届别\n演示届别 · 待替换\n加入时间\n未公开\n训练记录\n未公开\n个人荣誉\n尚无公开荣誉\n联系方式\n未公开\n← 返回共享档案"
+    },
+    {
+      "name": "self-preview",
+      "blocks": 6
+    },
+    {
+      "name": "document-added",
+      "text": "DOCUMENTS / 关联文档\n演示训练笔记\n仅本人\n×\n＋ 添加文档"
+    },
+    {
+      "name": "filter",
+      "count": 1
+    },
+    {
+      "name": "progress",
+      "text": "学习路径\n25%\n✓\n课程导读\n02\n热身与恢复资料\n03\n训练计划说明\n04\n学习回顾\n\n章节完成表示阅读进度，\n不代表技能考核合格。",
+      "chapter": "热身与恢复资料"
+    },
+    {
+      "name": "persisted",
+      "text": "学习路径\n25%"
+    },
+    {
+      "name": "mobile-overflow",
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

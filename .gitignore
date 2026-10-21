@@ -1,0 +1,57 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+.cache/
+.parcel-cache/
+.next/
+*.tsbuildinfo
+*.log
+npm-debug.log*
+
+# Local environment and credentials (keep sanitized templates)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.npmrc.local
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials.json
+service-account*.json
+secrets.json
+
+# Database data, dumps and local uploads
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+mysql-data/
+uploads/
+
+# Local tools and OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.tmp
+*.temp
+
+# Preserve these on disk; not part of this project's published source
+/design/stage-05-faithful/upstream/
+/profile-prototype/backups/
+
+# Generated browser evidence; keep textual QA history and reports
+/profile-prototype/qa/**
+!/profile-prototype/qa/**/
+!/profile-prototype/qa/**/*.md
+!/profile-prototype/qa/**/*.json

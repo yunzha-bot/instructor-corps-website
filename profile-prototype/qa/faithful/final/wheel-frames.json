@@ -1,0 +1,293 @@
+{
+  "passed": true,
+  "frames": [
+    {
+      "time": 9743.4,
+      "rail": 0,
+      "wheel": null,
+      "selected": "X-001"
+    },
+    {
+      "time": 9757.3,
+      "rail": 0,
+      "wheel": null,
+      "selected": "X-001"
+    },
+    {
+      "time": 9778.1,
+      "rail": 0,
+      "wheel": null,
+      "selected": "X-001"
+    },
+    {
+      "time": 9799,
+      "rail": -0.034,
+      "wheel": {
+        "value": 12.055286830796545,
+        "target": 13,
+        "velocity": 4.648466572139184
+      },
+      "selected": "X-001"
+    },
+    {
+      "time": 9819.8,
+      "rail": -0.108,
+      "wheel": {
+        "value": 12.173571118887192,
+        "target": 13,
+        "velocity": 6.378221939300076
+      },
+      "selected": "X-001"
+    },
+    {
+      "time": 9840.6,
+      "rail": -0.192,
+      "wheel": {
+        "value": 12.310113506863505,
+        "target": 13,
+        "velocity": 6.57421246400659
+      },
+      "selected": "X-001"
+    },
+    {
+      "time": 9861.5,
+      "rail": -0.274,
+      "wheel": {
+        "value": 12.442576153558228,
+        "target": 13,
+        "velocity": 6.022103074128795
+      },
+      "selected": "X-001"
+    },
+    {
+      "time": 9882.3,
+      "rail": -0.347,
+      "wheel": {
+        "value": 12.559276970504428,
+        "target": 13,
+        "velocity": 5.174280864582715
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 9903.2,
+      "rail": -0.408,
+      "wheel": {
+        "value": 12.657879173625632,
+        "target": 13,
+        "velocity": 4.26440069590271
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 9924,
+      "rail": -0.457,
+      "wheel": {
+        "value": 12.73763398124402,
+        "target": 13,
+        "velocity": 3.420236471299209
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10014.2,
+      "rail": -0.57,
+      "wheel": {
+        "value": 12.919334717506782,
+        "target": 13,
+        "velocity": 1.0577818851175824
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10028.1,
+      "rail": -0.578,
+      "wheel": {
+        "value": 12.932780786534183,
+        "target": 13,
+        "velocity": 0.8821863740020118
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10035.2,
+      "rail": -0.582,
+      "wheel": {
+        "value": 12.938762526712239,
+        "target": 13,
+        "velocity": 0.8040134560317734
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10049,
+      "rail": -0.588,
+      "wheel": {
+        "value": 12.948914458700632,
+        "target": 13,
+        "velocity": 0.6712522694491675
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10076.8,
+      "rail": -0.598,
+      "wheel": {
+        "value": 12.964556693209081,
+        "target": 13,
+        "velocity": 0.46642900938479537
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10097.6,
+      "rail": -0.603,
+      "wheel": {
+        "value": 12.973047976488429,
+        "target": 13,
+        "velocity": 0.3550737926137744
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10125.3,
+      "rail": -0.608,
+      "wheel": {
+        "value": 12.981293465902716,
+        "target": 13,
+        "velocity": 0.24679070522160537
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10132.3,
+      "rail": -0.609,
+      "wheel": {
+        "value": 12.982943903678114,
+        "target": 13,
+        "velocity": 0.22509424999950273
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10139.3,
+      "rail": -0.61,
+      "wheel": {
+        "value": 12.984449217831274,
+        "target": 13,
+        "velocity": 0.2052979309097027
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10160.1,
+      "rail": -0.613,
+      "wheel": {
+        "value": 12.988184908103763,
+        "target": 13,
+        "velocity": 0.15613421549481973
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10181,
+      "rail": -0.614,
+      "wheel": {
+        "value": 12.99103744872895,
+        "target": 13,
+        "velocity": 0.1185520484748088
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10201.8,
+      "rail": -0.616,
+      "wheel": {
+        "value": 12.99319406226511,
+        "target": 13,
+        "velocity": 0.09010861192919259
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10222.6,
+      "rail": -0.617,
+      "wheel": {
+        "value": 12.994833033268469,
+        "target": 13,
+        "velocity": 0.06847027566578266
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10243.5,
+      "rail": -0.618,
+      "wheel": {
+        "value": 12.996083464352159,
+        "target": 13,
+        "velocity": 0.051945284293480054
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10264.2,
+      "rail": -0.618,
+      "wheel": {
+        "value": 12.99702409920109,
+        "target": 13,
+        "velocity": 0.03950252984635893
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10285.1,
+      "rail": -0.619,
+      "wheel": {
+        "value": 12.997745330736402,
+        "target": 13,
+        "velocity": 0.029953256469895818
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10305.9,
+      "rail": -0.619,
+      "wheel": {
+        "value": 12.998289875773699,
+        "target": 13,
+        "velocity": 0.02273690025305724
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10326.8,
+      "rail": -0.619,
+      "wheel": {
+        "value": 12.998704905846779,
+        "target": 13,
+        "velocity": 0.017232122031887703
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10347.6,
+      "rail": -0.619,
+      "wheel": {
+        "value": 12.999018112218755,
+        "target": 13,
+        "velocity": 0.013074400164397345
+      },
+      "selected": "X-002"
+    },
+    {
+      "time": 10368.5,
+      "rail": -0.62,
+      "wheel": {
+        "value": 12.999256714540396,
+        "target": 13,
+        "velocity": 0.0099044475111469
+      },
+      "selected": "X-002"
+    }
+  ]
+}

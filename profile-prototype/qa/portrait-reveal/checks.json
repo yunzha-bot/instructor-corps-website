@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "frames": [
+    {
+      "elapsed": 0,
+      "width": 0,
+      "height": 0,
+      "phase": "hidden",
+      "scan": 38.61999999999998,
+      "uniform": [
+        0,
+        0
+      ]
+    },
+    {
+      "elapsed": 0.06666666666666643,
+      "width": 0.012,
+      "height": 0.008,
+      "phase": "point",
+      "scan": 38.91999999999998,
+      "uniform": [
+        0.012,
+        0.008
+      ]
+    },
+    {
+      "elapsed": 0.2499999999999991,
+      "width": 0.5588385568513072,
+      "height": 0.008,
+      "phase": "line",
+      "scan": 39.19499999999998,
+      "uniform": [
+        0.5588385568513072,
+        0.008
+      ]
+    },
+    {
+      "elapsed": 0.5999999999999979,
+      "width": 1,
+      "height": 0.44214351851851197,
+      "phase": "opening",
+      "scan": 39.56,
+      "uniform": [
+        1,
+        0.44214351851851197
+      ]
+    },
+    {
+      "elapsed": 0.86,
+      "width": 1,
+      "height": 1,
+      "phase": "complete",
+      "scan": 39.56,
+      "uniform": [
+        1,
+        1
+      ]
+    }
+  ],
+  "checks": {
+    "reduced": {
+      "elapsed": 0.86,
+      "width": 1,
+      "height": 1,
+      "phase": "complete"
+    },
+    "viewer": [
+      1,
+      1
+    ],
+    "clone": [
+      1,
+      1
+    ],
+    "next": {
+      "elapsed": 0,
+      "width": 0,
+      "height": 0,
+      "phase": "hidden"
+    },
+    "center": [
+      0.829999980122718,
+      1.87
+    ]
+  },
+  "errors": []
+}

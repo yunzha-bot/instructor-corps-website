@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "name": "档案正文",
+      "width": "auto",
+      "color": "auto",
+      "barWidth": "6px",
+      "thumb": "rgb(119, 119, 119)",
+      "track": "rgba(0, 0, 0, 0)",
+      "arrows": "none"
+    },
+    {
+      "name": "页签正文",
+      "width": "auto",
+      "color": "auto",
+      "barWidth": "6px",
+      "thumb": "rgb(153, 153, 153)",
+      "track": "rgba(0, 0, 0, 0)",
+      "arrows": "none"
+    },
+    {
+      "name": "文档弹窗",
+      "width": "auto",
+      "color": "auto",
+      "barWidth": "6px",
+      "thumb": "rgb(119, 119, 119)",
+      "track": "rgba(0, 0, 0, 0)",
+      "arrows": "none"
+    },
+    {
+      "name": "文本输入区",
+      "width": "auto",
+      "color": "auto",
+      "barWidth": "6px",
+      "thumb": "rgb(119, 119, 119)",
+      "track": "rgba(0, 0, 0, 0)",
+      "arrows": "none"
+    },
+    {
+      "name": "系统设置",
+      "width": "auto",
+      "color": "auto",
+      "barWidth": "6px",
+      "thumb": "rgb(153, 153, 153)",
+      "track": "rgba(0, 0, 0, 0)",
+      "arrows": "none"
+    },
+    {
+      "name": "检索结果",
+      "width": "auto",
+      "color": "auto",
+      "barWidth": "6px",
+      "thumb": "rgb(153, 153, 153)",
+      "track": "rgba(0, 0, 0, 0)",
+      "arrows": "none"
+    },
+    {
+      "name": "课程页面根滚动条",
+      "width": "auto",
+      "color": "auto",
+      "barWidth": "6px",
+      "thumb": "rgb(153, 153, 153)",
+      "track": "rgba(0, 0, 0, 0)",
+      "arrows": "none"
+    },
+    {
+      "name": "课程页面内部元素",
+      "width": "auto",
+      "color": "auto",
+      "barWidth": "6px",
+      "thumb": "rgb(153, 153, 153)",
+      "track": "rgba(0, 0, 0, 0)",
+      "arrows": "none"
+    },
+    {
+      "name": "手机档案正文",
+      "width": "auto",
+      "color": "auto",
+      "barWidth": "6px",
+      "thumb": "rgb(119, 119, 119)",
+      "track": "rgba(0, 0, 0, 0)",
+      "arrows": "none"
+    }
+  ],
+  "errors": []
+}
